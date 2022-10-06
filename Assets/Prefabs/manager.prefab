@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2042127154491933495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2042127154491933489}
+  - component: {fileID: 2042127154491933488}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2042127154491933489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042127154491933495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 301.92, y: 31.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042127154491933488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042127154491933495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915b718ea9ff71d4290992ea8f945617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallingPlatform1WObj: {fileID: 1053040281871232182, guid: 55d9b5f7deaa51a4da838777630238e1, type: 3}
+  fallingPlatform1WLocs: []
+  fallingPlatform2WObj: {fileID: 5260009499690935802, guid: da94080f28c457b409170bc0d931d6e9, type: 3}
+  fallingPlatform2WLocs: []
+  fallingPlatform3WObj: {fileID: 6626359472644915528, guid: 109d06b0ae6a72942a9e4d87d53d6dd1, type: 3}
+  fallingPlatform3WLocs: []
+  fallingPlatform2HObj: {fileID: 2596661997860421048, guid: ad1480cec698f414fa752c9ea72b1d7d, type: 3}
+  fallingPlatform2HLocs: []
+  fallingPlatform3HObj: {fileID: 2969075314713283743, guid: 0c114f591abaa07449be625a9bbd8f43, type: 3}
+  fallingPlatform3HLocs: []
+  walkEnemyObj: {fileID: 6748366010979352122, guid: 52dfb8cfd1acd874f918b408fed37f47, type: 3}
+  walkEnemyLocs:
+  - {x: 291.5, y: 22.5}
+  - {x: 303.5, y: 26.5}
+  - {x: 312.5, y: 29.5}
+  - {x: 302.5, y: 36.5}
+  - {x: 312.5, y: 39.5}
+  walkEnemyWaysUp:
+  - up
+  - up
+  - left
+  - right
+  - left
+  flyEnemyObj: {fileID: 2447788774419492925, guid: f984731c50c47474389e3537d1ad0a01, type: 3}
+  flyEnemyLocs: []
+  flyEnemyDir: []
+  acidBubbleEnemyObj: {fileID: 8112905438938210001, guid: 1a3fdfbd1aa4eba409cf6caae7179fad, type: 3}
+  acidBubbleEnemyLocs: []
+  acidBubbleEnemyStartWait: []
+  acidBubbleEnemyWait: []
+  acidBubbleEnemyJumpForce: []
+  movingPlatform1WObj: {fileID: 0}
+  movingPlatform1WLocs: []
+  movingPlatform2WObj: {fileID: 0}
+  movingPlatform2WLocs: []
+  movingPlatform3WObj: {fileID: 0}
+  movingPlatform3WLocs: []
+  movingPlatform2HObj: {fileID: 0}
+  movingPlatform2HLocs: []
+  movingPlatform3HObj: {fileID: 0}
+  movingPlatform3HLocs: []
+  self: {fileID: 2042127154491933495}
+  managerHeight: 43.1
+  managerWidth: 63.2
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 2048

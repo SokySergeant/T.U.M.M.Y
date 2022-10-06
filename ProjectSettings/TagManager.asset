@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - saveStations
+  - checkpoints
+  - hazards
+  - enemies
+  - player
+  - main
+  - untouchableEnemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - doors
+  - items
+  - 
+  - movingPlatform
+  - 
+  - directionalUp
+  - directionalDown
+  - directionalLeft
+  - directionalRight
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: invisible
+    uniqueID: 4174966185
+    locked: 0
+  - name: background
+    uniqueID: 1678447591
+    locked: 0
+  - name: main
+    uniqueID: 2457388367
+    locked: 0
+  - name: enemies
+    uniqueID: 1915325673
+    locked: 0
+  - name: player
+    uniqueID: 1505463293
+    locked: 0
+  - name: foreground
+    uniqueID: 2551757623
+    locked: 0
